@@ -59,18 +59,27 @@ a:hover {
     }
 }
 /* Dark mode styles */
+/* ===== DARK MODE ===== */
 body.dark-mode {
     background-color: #121212;
     color: #f1f1f1;
 }
 
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode p,
+body.dark-mode li {
+    color: #f1f1f1;
+}
+
 body.dark-mode .project {
     background-color: #1e1e1e;
-    box-shadow: none;
 }
 
 body.dark-mode a {
     color: #4da3ff;
+}
 }
 
 #toggleMode {
@@ -103,3 +112,19 @@ body {
     transform: scale(1.03);
     transition: 0.3s;
 }
+form {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    border:
